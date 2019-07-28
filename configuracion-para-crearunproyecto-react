@@ -1,0 +1,68 @@
+pasos para crear un proyecto en react
+
+.crear un repositorio en github o gitlab
+
+.clonar el repositorio
+
+.inicializar el proyecto
+
+	npm init -y //crea el componente de package .json
+
+.instalar react
+
+	npm install react react-dom --save
+
+.instalar babel
+
+	npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+.instalar un packete de babel que transforma las funciones flecha a clases y funciones que pueda ser entendido por cualquier navegador
+	
+	npm install babel-plugin-transform-class-properties --save-dev
+
+.instalar webpack
+
+	npm install webpack webpack-cli html-webpack-plugin html-loader --save-dev
+
+.instalar un packete webpack para el servidor
+	
+	npm install webpack-dev-server --save-dev //crear un script el json llamado build para compilar el proyecto y start para iniciar el servidor
+	
+.crear un archivo el la raiz del proyecto para el funcionamiento de webpack
+
+	webpack.config.js //archivo muy importante para el funcionamiento del proyecto
+
+.crear un archivo de configuracion para babel en la raiz del proyecto
+
+	.babelrc //se crea los pluggin para su funcionamiento de babel
+
+
+------------------------------------------esto es todo lo necesario para el funcionamiento de reatc---------------------------------
+
+------------------------------------------esto es la estructura del proyecto-------------------------------------------------------
+. crear un carpeta en la raiz llamada src
+
+	src // codigo js
+	
+	    components //se crea los componentees para dar vida al proyecto
+		about.jsx //solo es la manera de mostrar algo en pantalla
+            containers //permite manejar los contenedores de los componentes
+
+	index.js //entrada del proyecto para renderisar los componentes
+
+. crear una carpera public
+
+	public // se podria decir que es el view
+	     indes.html
+
+
+
+-----------------------------------------dando estilo al proyecto--------------------------------------------------------------------
+
+instalar style componetnt
+
+	npm install styled-components --save
+
+
+
+

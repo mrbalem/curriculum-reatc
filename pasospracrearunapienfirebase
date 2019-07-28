@@ -1,0 +1,13 @@
+pasos para crear un API en firebase
+
+installar la herramienta firebase-tools
+
+	sudo npm install -g firebase-tools
+
+iniciar sesion en firebase
+
+	firebase login
+
+inicializar el proyecto
+
+	firebase init
