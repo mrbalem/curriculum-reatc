@@ -6,7 +6,7 @@ const StyledH5 = styled.h5`
     font-weight: 400;
     letter-spacing: 1.2px;
     margin: .5em 0 0 0;
-    color: #C2185B;
+    color: #000000; 
 `;
 
 const H5Styled = ({ children }) => <StyledH5>{children}</StyledH5>;

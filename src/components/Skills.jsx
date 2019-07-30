@@ -15,7 +15,7 @@ const SkillLine = styled.div`
     height: 8px;
     position: relative;
     border-radius: 50px;
-    background: #F8BBD0;
+    background: #C0C0C0;
 
 `;
 
@@ -29,7 +29,7 @@ const SkillSpan = styled.span`
     height: 100%;
     width: ${props => props.width};
     border-radius: 8px;
-    background-color: #C2185B;
+    background-color: #000080;
     overflow: hidden;
     position: relative;
     box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4);

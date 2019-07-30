@@ -16,7 +16,7 @@ const AboutImg = Styled.img`
     border-radius: 100%;
     width: 160px;
     height: 160px;
-    border: 2px solid #E91E63;
+    border: 2px solid #000080;
     margin: 0 auto;
     display: block;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -31,14 +31,14 @@ const AboutH2 = Styled.h2`
     font-weight: 400;
     letter-spacing: 1.2px;
     margin: .5em 0 0 0;
-    color: #C2185B;
+    color: #000080;
 `;
 
 const AboutProfession = Styled.p`
     margin: .2em 0 em 0;
     letter-spacing: 1.6px;
     font-weight: 300;
-    color: #C2185B;
+    color: #000080;
 `;
 
 const AboutBio = Styled.p`
