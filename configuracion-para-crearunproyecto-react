@@ -63,6 +63,12 @@ instalar style componetnt
 
 	npm install styled-components --save
 
+instalar webpackplugin para los iconos y SEO del proyecto
+
+	npm install favicons-webpack-plugin --save-dev
 
 
+intalas stilos globales
+
+	npm install css-loader style-loader --save-dev //agreagar al webpackconfig. como un regla
 

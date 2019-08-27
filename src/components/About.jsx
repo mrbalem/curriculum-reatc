@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import Social from './Social';
 import Styled from 'styled-components';
 
@@ -6,6 +6,7 @@ import Styled from 'styled-components';
 const AboutStyle = Styled.div`
     text-align: center;
 `;
+
 
 //estilo para modificar el avatar
 const AboutAvatar = Styled.div`
@@ -53,12 +54,18 @@ const AboutLocation = Styled.p`
     font-weight: 400;
 `;
 
+const AboutContacto = Styled.div`
+    text-align: left;
+`
+
+
 const About = ({ avatar, name, profession, bio, address, social }) => (
     <AboutStyle>
+
         <div className="About-container">
             <AboutAvatar>
                 <figure>
-                    <AboutImg src={avatar} alt={name}/>
+                    <AboutImg src={avatar} alt={name} />
                 </figure>
             </AboutAvatar>
             <AboutName>
@@ -70,6 +77,17 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
             <div className="About-desc">
                 <AboutBio>{bio}</AboutBio>
             </div>
+            <AboutContacto>
+                <AboutH2>Contacto:</AboutH2>
+                <span><strong>Direccion: </strong> Lima-peru</span><br />
+                <span><strong>Correo: </strong> mylovepre16@gmail.com</span><br />
+                <span> <strong>Telefono: </strong>978493230</span>
+            <AboutH2>Objetivo:</AboutH2>
+            <AboutLocation>convertirme a corto plazo en un desarrollador web de alto nivel y a largo plazo en un experto en Inteligencia artificial y Ciencias de datos.
+                    actualemente manejo HTML, CSS y javascript a nivel itermedio.
+                </AboutLocation>
+            </AboutContacto>
+
             <div className="About-location">
                 <AboutLocation>{address}</AboutLocation>
             </div>
