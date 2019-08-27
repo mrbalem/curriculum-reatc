@@ -1,5 +1,9 @@
 language: node_js
+<<<<<<< HEAD
 cache: npm
+=======
+cache:  npm
+>>>>>>> fd46caa1d6f380ef0859dfd67eae3bc2552ba147
 node_js:
   - '9'
 git:
@@ -17,3 +21,4 @@ deploy:
   commit_message: "Deploy release ${TRAVIS_TAG}"
   on:
     branch: develop
+
